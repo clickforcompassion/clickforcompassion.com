@@ -13,7 +13,11 @@ body{margin:0;font-family:Arial,sans-serif;color:#111;background:#fff}
 
 /* HEADER */
 header{padding:12px 0;border-bottom:1px solid #eee;background:white}
-.brand{display:flex;align-items:center;justify-content:center;gap:14px}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:14px}
+  .top-nav{display:flex;align-items:center;gap:22px;flex-wrap:wrap;justify-content:flex-end}
+.top-nav a{color:#111;text-decoration:none;font-size:13px;font-weight:800;letter-spacing:.3px}
+.top-nav a:hover{color:#e51f2b}
+.top-nav a:last-child{background:#e51f2b;color:white;padding:10px 15px;border-radius:8px}
 .heart{
 width:64px;height:56px;background:#e51f2b;
 position:relative;transform:rotate(-45deg);
@@ -148,7 +152,13 @@ h1{font-size:42px;letter-spacing:-2px}
 <div class="brand">
 
 <img src="IMG_0024.png" alt="Click For Compassion" style="width:min(300px,100%);height:auto;display:block;">
-
+<nav class="top-nav">
+  <a href="#how-it-works">HOW IT WORKS</a>
+  <a href="#causes">CAUSES</a>
+  <a href="#partners">PARTNERS</a>
+  <a href="#about">ABOUT</a>
+  <a href="#notify">NOTIFY ME</a>
+</nav>
 
 
 </div>
